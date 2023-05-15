@@ -1,5 +1,5 @@
 # My final year project
-### Christoph Hausberger, Jonas Kager, Lukas Teischl
+### Partners: Christoph Hausberger, Jonas Kager
 
 
 ## 2023-05-15
