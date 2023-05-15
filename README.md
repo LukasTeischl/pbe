@@ -1,4 +1,4 @@
-# Meine Diplomarbeit
+# My final year project
 
 ## 2023-05-15
 Today we did...
