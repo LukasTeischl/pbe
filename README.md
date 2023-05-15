@@ -1,4 +1,6 @@
 # My final year project
+### Christoph Hausberger, Jonas Kager, Lukas Teischl
+
 
 ## 2023-05-15
 Today we did...
