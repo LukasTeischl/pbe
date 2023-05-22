@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Lukas Teischl">
+  <title>Reveal Template</title>
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css"
+        type="text/css">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/simple.min.css"
+        type="text/css">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css"
+        type="text/css">
+  <base target="_blank">
+</head>
+<body>
+
+<div class="reveal">
+  <div class="slides">
+
+<section data-background-position="bottom 10% right 10%" data-background-size="30%">
+  <h1>Snack-Automat</h1>
+  <h2>Diplomarbeit</h2>
+
+  <p id="author">
+    <a href="http://www.senarclens.eu/~gerald/">Hausberger, Kager, Teischl</a>
+  </p>
+  <aside class="notes">
+    <ul>
+      <li>You speaker notes (only you can see them)</li>
+      <li>Rethoric question to the audience...</li>
+    </ul>
+  </aside>
+</section>
+
+ <section>
+      <h3>Idee + Must have</h3>
+     <p> Snack Automat für Party</p>
+     
+     <li>4x Snacklager</li>
+     <li>Schrittmotor</li>
+     <li>Fach für Snackschüssel</li>
+     <li>Füllstand</li>
+     <li>Touchdisplay</li>
+     <li>Singelausgabe der Snacks</li>
+  </section>
+      <section>
+      <h3>Nice to have</h3>
+          <li>Mengeabfrage per Handy</li>
+          <li>Zugriff der Abfrage per Internet</li>
+          <li>Mischfunktion</li>
+          
+      </section>
+<section>
+  <h2>Bauteilliste</h2>
+  <ul>
+    <li>Raspberry Pi Pico/ Arduino UNO</li>
+    <li>4x <a href="https://www.amazon.de/STEPPERONLINE-Schrittmotor-Bipolar-42x48mm-Verbinder/dp/B07CQF1Q4Z/ref=sr_1_16?__mk_de_DE=ÅMÅŽÕÑ&crid=MI1IYCZT96J5&keywords=Schrittmotor&qid=1684761363&sprefix=schrittmotor%2Caps%2C115&sr=8-16"><code>Schrittmotor</code></a></li>
+    <li><a href="https://www.amazon.de/HAMTYSAN-Raspberry-Pi-Monitor-Bildschirm/dp/B0B8S9DYQC/ref=sr_1_5?__mk_de_DE=ÅMÅŽÕÑ&crid=2OTBS7Z0UQWEK&keywords=touch+display+7+zoll&qid=1684761530&sprefix=touch+display+7+zoll%2Caps%2C96&sr=8-5"><code>Touchdisplay </code></a></li>
+    <li>Netzteil</li>
+    <li>Jumper Kabel</li>
+    <li>Gehäuse Material</li>
+  </ul>
+</section>
+
+<section>
+  <h3>Skizze</h3>
+
+  <section>
+ <img src="Automat.jpg" width="600" height="500">
+  </section>
+</section>
+ 
+
+
+
+<section data-background-color="pink" class="center">
+    <h1>Questions<br>
+      and feedback...</h1>
+</section>
+
+  </div>
+</div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.js"
+            type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/notes/notes.min.js"
+            type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/search/search.min.js"
+            type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/highlight/highlight.min.js"
+            type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/markdown/markdown.min.js"
+            type="text/javascript"></script>
+    <script>
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        center: false,
+        hash: true,
+        width: 1000,
+        margin: 0,
+        padding: 0,
+        slideNumber: 'c/t',
+        plugins: [ RevealNotes, RevealSearch, RevealHighlight, RevealMarkdown ]
+      });
+    </script>
+  </body>
+</html>
+
+
